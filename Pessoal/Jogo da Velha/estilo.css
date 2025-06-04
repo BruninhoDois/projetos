@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+.quadrado{
+    width: 200px;     /*largura*/
+    height: 200px;        /*altura*/
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    font-size: 120px;
+    color: white; 
+}
+
+/*personalizando a div*/
+.painel{
+    background-color: black;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+
+}
+
+.jogo{
+    margin: auto;
+}
+h2{
+   color: white;
+   text-align: center;
+
+}
+body{
+    background-image: url("https://wallpapers.com/images/hd/persona-pictures-3cy7e9euwnb1cty8.jpg");
+    background-size: auto;
+
+}
+
+.botao{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    font-size: 30px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.texto{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+}

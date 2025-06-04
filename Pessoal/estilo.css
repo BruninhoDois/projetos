@@ -1,0 +1,13 @@
+.titulo{
+ color: rgb(146, 6, 34);
+}
+
+body{
+background-color: bisque;
+text-align: center;
+
+}
+
+.perfil{
+    border-radius: 30px;
+}

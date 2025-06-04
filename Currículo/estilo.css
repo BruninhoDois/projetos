@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+     /*alinha texto no centro*/
+    text-align:center; 
+    background-size: cover;
+font-family: "Winky Sans", sans serif;
+font-size: 16px;
+background-color: white;
+      color: black;
+      transition: all 0.3s;
+      outline: none;
+    }
+    button {
+      margin: 5px;
+      padding: 5px 10px;
+    }
+    main {
+      margin-top: 80px;
+      padding: 20px;
+    }
+    a:focus, button:focus {
+      outline: 3px solid #00f;
+
+}
+
+section{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+    /*espaçamento interno*/
+    padding: 10px;
+    /*espaçamento externo*/
+    margin-top: 20px;
+    /*sombra*/
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.233);
+    animation: animacao 4s alternate infinite;
+}
+
+/*trabalhando com classe (personalizar muitos)*/
+.titulo{
+    color: blue;
+}
+/*trabalhando com id (personalizando um só)*/
+#perfil{
+    border-radius: 20px;
+    width: 500px;
+    border: 2px solid grey;
+}
+
+.informacoes{
+    list-style: none;
+    text-align: left;
+    
+}
+section:hover{
+
+     transition: 2s;
+     /* font-size: 25px; */
+}
+/*personalizar menu*/
+.menu{
+    background-color: black; 
+    border-radius: 15px;       
+}
+/*deixar lista lado a lado*/
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+    width: 190px;
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    border-radius: 20px;
+    width: 40px;
+    
+}
+
+.rodape{
+    /*cor do rodapé*/
+    background-color: antiquewhite;
+    /*cor da letra*/
+    color: black;
+    /*margem de cima*/
+    margin-top: 40px;
+    /*espçamento interno*/
+    padding-top: 20px;
+}
+.menu ul{
+    margin: 0px;
+    padding-top: 0px;
+}
+body{
+    margin: 0px;
+}
+#redes ul li a{
+    /* cor da letra */
+    color: black;
+    /* decoração do texto desativada */
+    text-decoration: none;
+    
+}
+.celular{
+    /*Desapareça o icone menu na versão desktop*/
+    display: none;
+}
+
+/*definindo configuração do modo celular*/
+@media(max-width: 1050px){
+    .menu ul{
+        display: none; /*desaparece a lista do meu*/
+    }
+    .celular{
+        display: block; /*aparece menu hamburguer do celular*/
+        text-align: left;
+        padding: 8px;
+    }
+    ul.mostraMenu{                                             
+        display: inline-block;
+    }   
+
+}
